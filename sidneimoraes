@@ -1,0 +1,176 @@
+>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/prof ponteira laser avatar.png" alt="avatar de Sidnei" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou o PROF. SIDNEI_</p>
+        <h1>Eu ensino Física, Programação e Robótica no Ensino Médio.<br>Fui instrutor de Sistema Elétrico de Aeronaves na Força Aérea Brasileira.<br>Fui instrutor de técnicas de busca, 
+          salvamento e resgate helitransportados.<br>Fui instrutor de socorro pré-hospitalar militar para tripulantes operacionais de helicópteros </h1>
+      
+        
+        
+        <h2 style="color:blue">Minhas habilidades</h2>
+        <div>
+            <p class="badge bg-primary">FÍSICA BÁSICA E ROBÓTICA</p>
+            <p class="badge bg-primary">SISTEMA ELÉTRICO DE AERONVES</p>
+            <p class="badge bg-primary">SALVAMENTO E RESGATE SAR</p>
+            <p class="badge bg-primary">SOCORRO PRÉ-HOSPITALAR MILITAR</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/1751820993121.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Aulas Experimentais:<br>
+                           Aprendizagem por Projetos</h5>
+                        <p class="card-text">Os alunos são divididos em grupos e cada grupo
+                           tem 2 experimentos propostos 
+                           para realizar e apresentar 
+                           em forma de seminário nas aulas e 
+                           na Feira de Ciências da escola.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/sar figura rapel hel.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">SAR (Search an Rescue):<br> "Para que Outros Possam Viver"</h5>
+                        <p class="card-text">Esta atividade tem por finalidade 
+                          resgatar pessoas vítimas 
+                          de acidentes aéreos, resgatar militares presos atrás de linhas inimigas,
+                           pessoas perdidas ou acidentadas em locais de difícil acesso, utilizando técnicas de busca e salvamento helitransportado, seja  por terra, mar ou ar</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/1751821705118.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Introdução à Robótica:<br>
+                           Aulas experimentais com arduíno uno 
+                           
+                        </h5>
+                        <p class="card-text">Este projeto permite que os alunos 
+                          se familiarizem com automação, programação com 
+                          linguagem C++, aplicadas em montagens didáticas 
+                          que apresentam conceitos de Física Básica do Ensino Médio
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minhas aulas práticas:<br> Seminário de Experimentos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Os aunos são divididos em grupos..</p>
+                    <p>Cada grupo tem 2 experimentos para realizar.</p>
+                    <p>Eles devem explicar os princípios físicos abordados e apresentar o relatório do experimento, assim como o diário de bordo.</p>
+                    <p>Os mehores trabalhos recebem prêmios e se classificam para Feiras de Ciências externas.</p>
+                    <img src="img/1751822227568.jpg" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minhas Atividades: Instrutor e Militar Operacional</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Trabalhei de 1981 a 2004 no 1º/11ºGaV, conhecido como Esquadrão Gavião, sediado na Base Aérea de Santos, uma unidade de innstrução para pilotos e mecânicos de aeronaves de asas rotativas.
+                    </p>
+                    <p>Em 1985 entrei na Equipe SAR onde fui tripulante e instrutor de salvamente e resgate helitransportado.
+                    <p>Ministrei aulas teóricas e práticas da disciplina de Busca e Salvamento para tripulantes operacionais de heicópteros, tanto para miitares da FAB, como do Exército, das Forças Auxiiares, das Forças de países amigos e de poiciais do COE.</p>
+                    <p>Ministrei aulas práticas e teóricas de Sistema Elétrico dos helicópteros UH-1H, HB350B, H13H, para miitares e civis.</p>
+                    <p>Participei de missões de busca, salvamento e resgate, assim como de instruções práticas para militares e civis, além de diversas manobras do meu esquadrão, desde Tramandaí no Rio Grande do Sul até Natal no Rio Grande do Norte.
+                    </p>
+                    <p>Fui encarregado da Equipe SAR, da Seção Aeromédica do esquadrão, da seção de Instrução do Esquadrão e da seção de Pessoal do esquadrão.</p>
+                    <img src="img/salvamento com maca e talas.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Aulas de Programação e Robótica:<br> Criação de Webpage Personalizada<br>Projetos com Arduíno Uno</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Nas aulas de programação, utilizando as vídeoaulas do Alura, os alunos aprendem a elaborar uma webpage, aproveitando o esboço do instrutor.</p>
+                    <p>As linguagens HTML, CSS e Java Script, são utilizadas na prática, assim como o editor VS Code e p5js.</p>
+                    <p>Nas aulas de robótica os alunos utilizam a placa controadora arduíno uno, aproveitando tanto codificações prontas encontrads na internet, ou elaborados por IA.</p>
+                    <p>Em robótica os alunos aprendem conceitos básicos de linguagem C++,  para realizar seus projetos que devem compreender automação e aplicação de conceitos de Física Básica  ensinados nas aulas teóricas de Física.</p>
+                    <img src="img/1751821474450.jpg" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Sidnei Ribeiro de Moraes</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
